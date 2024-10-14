@@ -1,5 +1,7 @@
+"use client";
+
 import { useState, useEffect } from 'react';
-import Results from '../components/Results.jsx';
+import Results from '../components/Results';
 
 export default function SearchPage({ params }) {
   const searchTerm = params.searchTerm;
